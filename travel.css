@@ -123,6 +123,7 @@ a {
   padding: 10px 10px 40px 10px;
   width: 100%;
   transition: 0.4s;
+  color: black;
 }
 .sidebar a:hover {
   background-color: gray;
@@ -225,7 +226,7 @@ a {
   margin-top: 50px;
   margin-left: 38%;
   padding: 10px 0px 10px 0px;
-  font-size: 23px;
+  font-size: 24px;
   position: absolute;
   color: #ffffffe7;
 }

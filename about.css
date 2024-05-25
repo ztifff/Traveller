@@ -186,15 +186,15 @@ a {
   .icons i {
     font-size: 16px;
   }
-  .container img {
-    width: 300px;
-    height: 300px;
-  }
   .window {
     flex-direction: column;
   }
   .window2 {
     flex-direction: column;
+  }
+  .container img {
+    width: 300px;
+    height: 300px;
   }
   .footer p {
     font-size: 10px;
