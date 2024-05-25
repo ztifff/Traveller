@@ -188,13 +188,15 @@ a {
   }
   .window {
     flex-direction: column;
+    text-align: center;
   }
   .window2 {
     flex-direction: column;
+    text-align: center;
   }
   .container img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .footer p {
     font-size: 10px;
