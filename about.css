@@ -176,6 +176,16 @@ a {
   .hideOnMobile {
     display: none;
   }
+  .logo i,
+  .logo a {
+    font-size: 14px;
+  }
+  .logo a {
+    margin-left: -30px;
+  }
+  .icons i {
+    font-size: 16px;
+  }
   .window {
     flex-direction: column;
   }
