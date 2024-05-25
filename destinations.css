@@ -451,6 +451,12 @@ a {
   .icons i {
     font-size: 16px;
   }
+  .headcontainer h1 {
+    font-size: 24px;
+  }
+  .headcontainer p {
+    font-size: 18px;
+  }
   .footer p {
     font-size: 10px;
   }

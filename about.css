@@ -186,6 +186,9 @@ a {
   .icons i {
     font-size: 16px;
   }
+  .headcontainer h1 {
+    font-size: 34px;
+  }
   .window {
     flex-direction: column;
     text-align: center;
