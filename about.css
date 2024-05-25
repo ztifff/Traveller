@@ -193,8 +193,8 @@ a {
     flex-direction: column;
   }
   .container img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
   .footer p {
     font-size: 10px;
