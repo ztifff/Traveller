@@ -123,7 +123,6 @@ a {
   padding: 10px 10px 40px 10px;
   width: 100%;
   transition: 0.4s;
-  color: white;
 }
 .sidebar a:hover {
   background-color: gray;
@@ -366,15 +365,26 @@ a {
   .hideOnMobile {
     display: none;
   }
+  .logo i,
+  .logo a {
+    font-size: 14px;
+  }
+  .logo a {
+    margin-left: -30px;
+  }
+  .icons i {
+    font-size: 16px;
+  }
   .bgtext h1 {
-    font-size: 20px;
+    font-size: 14px;
   }
   .bgtext p {
-    font-size: 20px;
+    font-size: 12px;
   }
   .join a {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 7px;
+    padding: 5px 5px 5px 5px;
   }
   .cards {
     display: flex;
@@ -382,6 +392,7 @@ a {
   }
   .famous h1 {
     margin-left: -77px;
+    font-size: 34px;
   }
   .places {
     display: flex;
