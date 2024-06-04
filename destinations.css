@@ -145,10 +145,19 @@ a {
   padding: 100px 0px 200px 0px;
   background-color: #ecebeb;
 }
+.destinations img {
+  border-radius: 40px;
+}
+.destinations > animate {
+  flex: 1 1 calc(33.333% - 10px);
+  box-sizing: border-box;
+  margin: 5px; 
+}
 .place1 {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -172,9 +181,11 @@ a {
 .star1 {
   margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star1 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book1 a {
@@ -195,6 +206,7 @@ a {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -218,9 +230,11 @@ a {
 .star2 {
   margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star2 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book2 a {
@@ -241,6 +255,7 @@ a {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -264,9 +279,11 @@ a {
 .star3 {
   margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star3 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book3 a {
@@ -287,6 +304,7 @@ a {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -310,9 +328,11 @@ a {
 .star4 {
   margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star4 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book4 a {
@@ -333,6 +353,7 @@ a {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -354,11 +375,13 @@ a {
   font-size: 30px;
 }
 .star5 {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star5 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book5 a {
@@ -379,6 +402,7 @@ a {
   width: 300px;
   height: 461px;
   background-color: #ffffffe7;
+  border-radius: 40px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -402,9 +426,11 @@ a {
 .star6 {
   margin-top: 10px;
   font-size: 20px;
+  margin-left: 20px;
 }
 .star6 p {
-  margin-top: -2px;
+  margin-top: -5px;
+  margin-right: 15px;
   float: right;
 }
 .book6 a {
@@ -451,6 +477,9 @@ a {
   .icons i {
     font-size: 16px;
   }
+  .destinations > animate {
+    flex: 1 1 calc(100% - 10px);
+  }
   .headcontainer h1 {
     font-size: 24px;
   }
@@ -467,5 +496,8 @@ a {
 @media (min-width: 1280px) {
   .hideOnPc {
     display: none;
+  }
+  .places > animate {
+    flex: 1 1 calc(50% - 10px); 
   }
 }
