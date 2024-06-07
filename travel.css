@@ -536,9 +536,15 @@ a {
     margin-top: 7px;
     padding: 5px 5px 5px 5px;
   }
+  .mid h1 {
+    font-size: 40px;
+  }
   .cards {
     display: flex;
     flex-direction: column;
+  }
+  .cards i {
+    font-size: 100px;
   }
   .famous h1 {
     margin-left: -77px;
