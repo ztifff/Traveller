@@ -139,7 +139,7 @@ a {
 .destinations {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 130px;
   padding: 100px 0px 200px 0px;
@@ -147,6 +147,9 @@ a {
 }
 .destinations img {
   border-radius: 40px;
+}
+table td{
+  padding: 50px;
 }
 .destinations > animate {
   flex: 1 1 calc(33.333% - 10px);
