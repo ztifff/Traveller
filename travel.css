@@ -235,19 +235,14 @@ a {
 .places {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  
-  padding: 100px 0px 100px 0px;
+  gap: 130px;
+  padding: 100px 0px 200px 0px;
   background-image: url(https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSY7x0shpPE3J7JCulJ5cXC2vYmOCl_LNqhiUPuDeWOA3MaUUut7AM3Wt8VJzFs5gxA);
 }
 .places img {
   border-radius: 40px;
-}
-.place {
-  flex: 1 1 calc(33.333% - 20px);
-  margin: 50px;
-  box-sizing: border-box;
-  max-width: 1200px;
 }
 .place1 {
   width: 300px;

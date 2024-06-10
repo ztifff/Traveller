@@ -148,14 +148,6 @@ a {
 .destinations img {
   border-radius: 40px;
 }
-table td{
-  padding: 50px;
-}
-.destinations > animate {
-  flex: 1 1 calc(33.333% - 10px);
-  box-sizing: border-box;
-  margin: 5px; 
-}
 .place1 {
   width: 300px;
   height: 461px;
